@@ -1,9 +1,9 @@
 name: Daily Crawlers
 
 on:
-  workflow_dispatch:  # ✅ 手動觸發
+  workflow_dispatch:  #  手動觸發
   schedule:
-    - cron: '0 0 * * *'  # ✅ 每天 00:00 UTC 執行（台灣 08:00）
+    - cron: '0 0 * * *'  #  每天 00:00 UTC 執行（台灣 08:00）
 
 jobs:
   run-crawlers:
